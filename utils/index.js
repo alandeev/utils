@@ -1,5 +1,7 @@
-const convertCSVToJsonFormat = require("./format-csv-to-json-dynamo-data");
+const scriptsObject = require("./scripts");
+const mappersObject = require("./mappers");
 
 module.exports = {
-  convertCSVToJsonFormat,
+  scripts: scriptsObject,
+  mappers: mappersObject
 }
